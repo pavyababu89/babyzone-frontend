@@ -96,7 +96,7 @@ if (!cart || cart.items.length === 0) {
               {/* NAME */}
               <div style={{ ...nameBox, justifySelf: "start" }}>
                 <img
-                  src={`http://127.0.0.1:8000${item.product_image}`}
+                  src={`https://Shudarshini.pythonanywhere.com${item.product_image}`}
                   style={img}
                 />
                 <p>{item.product_name}</p>
@@ -221,7 +221,7 @@ if (!cart || cart.items.length === 0) {
                         src={
                           item.image?.startsWith("http")
                             ? item.image
-                            : `https://Shudarshini.pythonanywhere.com${item.product_image}`
+                            : `https://Shudarshini.pythonanywhere.com${item.image}`
                         }
                         style={productImg}
                       />
