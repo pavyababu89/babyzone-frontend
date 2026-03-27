@@ -174,7 +174,7 @@ const handlePayment = async () => {
             <div style={productRow} key={item.id}>
                 
                 <img
-                src={`http://127.0.0.1:8000${item.product_image}`}
+                src={`https://Shudarshini.pythonanywhere.com${item.product_image}`}
                 style={productImg}
                 />
 
