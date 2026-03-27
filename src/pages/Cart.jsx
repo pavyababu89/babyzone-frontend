@@ -221,7 +221,7 @@ if (!cart || cart.items.length === 0) {
                         src={
                           item.image?.startsWith("http")
                             ? item.image
-                            : `http://127.0.0.1:8000${item.image}`
+                            : `https://Shudarshini.pythonanywhere.com${item.product_image}`
                         }
                         style={productImg}
                       />
